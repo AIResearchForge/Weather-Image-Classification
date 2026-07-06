@@ -56,15 +56,14 @@ Dense (11, softmax)
 ## 📊 Results
 
 > Metric values are generated automatically in the notebook (Sections 14–20)
-> after training and depend on the specific training run and hardware. Once
-> you've run the project, it's worth pasting the final numbers here, e.g.:
+> after training and depend on the specific training run and hardware.
 
 | Metric | Result |
 |---|---|
-| Test Accuracy | _fill in after training_ |
-| Precision (macro) | _fill in after training_ |
-| Recall (macro) | _fill in after training_ |
-| F1-score (macro) | _fill in after training_ |
+| Test Accuracy |
+| Precision (macro) |
+| Recall (macro) |
+| F1-score (macro) |
 
 Full results (confusion matrix, per-class classification report, training
 curves) are automatically saved to the `results/` folder:
