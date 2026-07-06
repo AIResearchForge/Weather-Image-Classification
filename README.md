@@ -58,8 +58,8 @@ Dense (11, softmax)
 > Metric values are generated automatically in the notebook (Sections 14–20)
 > after training and depend on the specific training run and hardware.
 
-| Metric | Result |
-|---|---|
+| Metric |
+|---|
 | Test Accuracy |
 | Precision (macro) |
 | Recall (macro) |
