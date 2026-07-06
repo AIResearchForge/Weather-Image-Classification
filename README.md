@@ -130,18 +130,18 @@ predict_new_image("images/my_photo.jpg", loaded_model, loaded_class_names)
 
 ```
 Weather-Image-Classification/
+├── docs/
+├── images/
+├── models/
 ├── notebooks/
 │   └── Weather_Image_Classification_TensorFlow.ipynb
-|   └── Weather_Image_Classification_TensorFlow_example.ipynb 
-├── models/             
-├── images/           
+|   └── Weather_Image_Classification_TensorFlow_example.ipynb                 
 ├── predictions/        
 ├── results/           
-├── docs/               
-├── requirements.txt
+├── .gitignore         
 ├── LICENSE
-├── .gitignore
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## 🗺️ Development Roadmap
