@@ -15,12 +15,7 @@ The model recognizes **11 weather phenomena** from a single photograph:
 `dew`, `fogsmog`, `frost`, `glaze`, `hail`, `lightning`, `rain`, `rainbow`,
 `rime`, `sandstorm`, `snow`.
 
-The goal of this project is to demonstrate practical, thorough proficiency
-with TensorFlow/Keras in an image classification task: from data
-exploration, through augmentation, two-phase training (transfer learning +
-fine-tuning), full evaluation with multiple metrics, all the way to model
-decision explainability (Grad-CAM) and a ready-to-use prediction pipeline for
-new data.
+The goal of this project is to demonstrate the capabilities of TensorFlow/Keras for image classification by covering the entire machine learning workflow—from data exploration and augmentation, through two-stage training (transfer learning followed by fine-tuning), comprehensive evaluation using multiple performance metrics, and model explainability with Grad-CAM, to a production-ready prediction pipeline for new data.
 
 ## 🧠 Model Architecture
 
