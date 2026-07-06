@@ -1,0 +1,64 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Środowiska wirtualne ---
+venv/
+env/
+ENV/
+.venv/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- TensorFlow / dane / modele ---
+*.h5
+*.keras
+*.tflite
+*.pb
+logs/
+checkpoints/
+saved_model/
+
+# Zachowujemy strukturę folderu models/ w repo, ale nie duże pliki wagowe:
+models/*.keras
+models/*.h5
+!models/.gitkeep
+
+# --- Dane wejściowe (pobierane przez notebook, nie commitujemy) ---
+data/
+
+# --- Wyniki generowane lokalnie ---
+predictions/*.png
+predictions/*.jpg
+!predictions/.gitkeep
+
+# --- Systemowe / IDE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Zmienne środowiskowe / sekrety ---
+.env
+*.env
+kaggle.json
