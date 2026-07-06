@@ -117,11 +117,13 @@ A full "file-to-result" inference pipeline — with automatic saving of the pred
 
 How to actually use this function on your own image — three ways:
 
-Google Colab (easiest): run the cell below — a "Choose Files" button will appear, letting you pick an image from your computer. It will be automatically uploaded to the notebook and classified.
-Local Jupyter / any environment: upload your image to the images/ folder in the repository, then in a new cell call:
+1. Google Colab (easiest): run the cell below — a "Choose Files" button will appear, letting you pick an image from your computer. It will be automatically uploaded to the notebook and classified.
+
+2. Local Jupyter / any environment: upload your image to the images/ folder in the repository, then in a new cell call:
 predict_new_image("images/my_photo.jpg", loaded_model, loaded_class_names)
 (replacing the filename with your own).
-Image already present on the server/Colab disk — simply provide the full path to it as the first argument of the function.
+
+3. Image already present on the server/Colab disk — simply provide the full path to it as the first argument of the function.
 ```
 
 ## 📁 Repository Structure
@@ -129,7 +131,8 @@ Image already present on the server/Colab disk — simply provide the full path 
 ```
 Weather-Image-Classification/
 ├── notebooks/
-│   └── Weather_Image_Classification_TensorFlow.ipynb 
+│   └── Weather_Image_Classification_TensorFlow.ipynb
+|   └── Weather_Image_Classification_TensorFlow_example.ipynb 
 ├── models/             
 ├── images/           
 ├── predictions/        
