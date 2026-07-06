@@ -2,7 +2,7 @@
 
 A weather-phenomenon classifier based on a single photograph, built on
 **Transfer Learning**, **Fine Tuning**, and **Grad-CAM** on the
-**EfficientNetB0** architecture (TensorFlow / Keras). A portfolio project
+**EfficientNetB0** architecture (TensorFlow / Keras). A project
 presenting a full, production-style pipeline: from data, through training, to
 evaluation, model explainability, and a ready-to-use prediction function for
 new images.
