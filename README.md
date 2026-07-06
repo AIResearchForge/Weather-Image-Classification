@@ -110,20 +110,18 @@ The notebook can also be run directly in **Google Colab** (recommended —
 free GPU access): just upload the `.ipynb` file and set
 `Runtime → Change runtime type → GPU`.
 
-### 5. Predict on your own image
+### 5. Predict on your own image(Section 27)
 
-After training (or loading a saved model):
+A full "file-to-result" inference pipeline — with automatic saving of the prediction result (image + label + confidence) to the predictions/ folder, simulating how results might be archived in a real application.
 
-```python
-from tensorflow import keras
-import json
+How to actually use this function on your own image — three ways:
 
-model = keras.models.load_model("models/weather_classifier_efficientnetb0_final.keras")
-with open("models/class_names.json") as f:
-    class_names = json.load(f)
+Google Colab (easiest): run the cell below — a "Choose Files" button will appear, letting you pick an image from your computer. It will be automatically uploaded to the notebook and classified.
+Local Jupyter / any environment: upload your image to the images/ folder in the repository, then in a new cell call:
+predict_new_image("images/my_photo.jpg", loaded_model, loaded_class_names)
+(replacing the filename with your own).
+Image already present on the server/Colab disk — simply provide the full path to it as the first argument of the function.
 
-# predict_new_image() function defined in the notebook (Section 27)
-predict_new_image("images/my_sky.jpg", model, class_names)
 ```
 
 ## 📁 Repository Structure
