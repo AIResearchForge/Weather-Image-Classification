@@ -74,23 +74,6 @@ curves) are automatically saved to the `results/` folder:
 
 Saved predictions on new images (Section 27) go to the `predictions/` folder.
 
-## 🖼️ Screenshots
-
-> After running the notebook, it's worth saving key visualizations here (as
-> files in `images/`), e.g.:
-> - an example image from each of the 11 classes (Section 7),
-> - the data augmentation effect (Section 8),
-> - accuracy/loss curves (Section 13),
-> - the confusion matrix (Section 19),
-> - the Grad-CAM visualization (Section 24) — the most striking screenshot
->   for the README.
->
-> ```markdown
-> ![Training curves](images/training_curves.png)
-> ![Confusion matrix](images/confusion_matrix.png)
-> ![Grad-CAM](images/gradcam_example.png)
-> ```
-
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
