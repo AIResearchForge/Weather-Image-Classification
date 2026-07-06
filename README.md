@@ -79,8 +79,8 @@ Saved predictions on new images (Section 27) go to the `predictions/` folder.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/Weather-Image-Classification.git
-cd weather-image-classification
+git clone https://github.com/AIResearchForge/Weather-Image-Classification.git
+cd Weather-Image-Classification
 ```
 
 ### 2. Virtual environment and dependencies
